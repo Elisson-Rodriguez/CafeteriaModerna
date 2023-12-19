@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafetería SaSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Raleway:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./build/css/app.css">
+</head>
+
+<body>
+    <header class="header header-nosotros">
+        <div class="contenido-header contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <img src="./build/img/logo.svg" alt="Logo cafetería">
+                </div>
+                <nav class="nav-principal">
+                    <a href="./index.html">Inicio</a>
+                    <a class="active" href="./nosotros.html">Nosotros</a>
+                    <a href="./proceso.html">Proceso</a>
+                    <a href="./menu.html">Menú</a>
+                    <a href="./galeria.html">Galería</a>
+                    <a href="./contacto.html">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="texto-header">
+                <h1>Una nueva experiencia cada día</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor contenido-principal">
+        <h2><span>Conoce más</span>sobre nosotros</h2>
+
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/nosotros_sidebar.avif" type="image/avif" />
+                    <source srcset="build/img/nosotros_sidebar.webp" type="image/webp" />
+                    <source srcset="build/img/nosotros_sidebar.jpg" type="image/jpg" />
+                    <img loading="lazy" decoding="async" lazyalt="imagen" width="500" height="300"
+                        src="./build/img/nosotros_sidebar.jpg" alt="Imagen" />
+                </picture>
+            </div>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, maiores dolorem ea ullam quos
+                    sapiente deleniti, ut dignissimos corporis dicta facilis reiciendis doloremque sit esse cum aut ex
+                    nostrum enim?</p>
+                <blockquote>Excelente Sabor!</blockquote>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, maiores dolorem ea ullam quos
+                    sapiente deleniti, ut dignissimos corporis dicta facilis reiciendis doloremque sit esse cum aut ex
+                    nostrum enim?</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor footer-contenido bgWhite">
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>Nicolas Copérnico 5990</p>
+                <p>Santo Domingo Norte</p>
+            </div>
+            <div class="footer-box reservacion">
+                <h3>Reservación</h3>
+                <p>Tel. 000-0000</p>
+                <a href="tel:+1000000-0000">Llamar</a>
+            </div>
+            <div class="footer-box horario">
+                <h3>Horario</h3>
+                <p>Lun-Jue 11:00 22:00</p>
+                <p>Vie-Sab 09:00 24:00</p>
+                <p>Domingo: Cerrado</p>
+            </div>
+        </div>
+        <p class="copyright">Todos los derechos reservados. La Cafetería</p>
+    </footer>
+</body>
+
+
+</html>
